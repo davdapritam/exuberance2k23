@@ -675,13 +675,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #fff;
+  /* color: black; */
 }
 
 /*--------------------------------------------------------------
@@ -1319,6 +1319,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+.team-img{
+  width: 65%;
+  height: 165px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  object-fit: cover;
+  object-position: center;
+}
 
+.card{
+  padding: 1.5em .5em .5em;
+  /* border-radius: 2em; */
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
 
-
+.card-title{
+  font-weight: 700;
+  font-size: 1.5em;
+}
