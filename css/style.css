@@ -1320,9 +1320,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team-img{
-  width: 65%;
+  width: 165px;
   height: 165px;
-  border-radius: 50%;
+  border-radius: 100%;
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0,0,0,.2);
   object-fit: cover;
