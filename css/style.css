@@ -1,4 +1,3 @@
-
 body {
   background: #fff;
   color: #2f3138;
@@ -93,7 +92,7 @@ h6 {
 --------------------------------*/
 
 .section-header {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   position: relative;
   padding-bottom: 20px;
 }
@@ -102,11 +101,11 @@ h6 {
   content: '';
   position: absolute;
   display: block;
-  width: 60px;
+  width: 75px;
   height: 5px;
   background: #f82249;
-  bottom: 0;
-  left: calc(50% - 25px);
+  bottom: 12px;
+  left: calc(50% - 35px);
 }
 
 .section-header h2 {
@@ -205,12 +204,12 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -267,11 +266,11 @@ h6 {
   color: #fff;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 8px;
 }
 
-.nav-menu > li > a:before {
+.nav-menu>li>a:before {
   content: "";
   position: absolute;
   width: 0;
@@ -284,8 +283,8 @@ h6 {
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .menu-active > a:before {
+.nav-menu li:hover>a:before,
+.nav-menu .menu-active>a:before {
   visibility: visible;
   width: 100%;
 }
@@ -335,13 +334,17 @@ h6 {
   border-radius: 3px;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
   background: #f82249;
   color: #fff;
 }
 
 .nav-menu ul ul {
   margin: 0;
+}
+
+.developer-card {
+  max-width: 30.333333%;
 }
 
 /* Mobile Nav Toggle */
@@ -1206,6 +1209,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
+
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -1279,6 +1283,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .nav-tabs a {
     padding: 8px 60px;
   }
+
+  .developer-card {
+    max-width: 42.333333%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1292,6 +1300,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #faq #faq-list i {
     top: 13px;
+  }
+
+  .developer-card {
+    max-width: 60.333333%;
   }
 }
 
@@ -1311,6 +1323,28 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .nav-tabs a {
     padding: 8px 30px;
   }
+
+  .developer-card {
+    max-width: 65.333333%;
+  }
+}
+
+@media (max-width: 400px) {
+  .developer-card {
+    max-width: 70.333333%;
+  }
+}
+
+@media (max-width: 350px) {
+  .developer-card {
+    max-width: 75.333333%;
+  }
+}
+
+@media (max-width: 325px) {
+  .developer-card {
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 460px) {
@@ -1319,24 +1353,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.team-img{
+.team-img {
   width: 165px;
   height: 165px;
   border-radius: 100%;
   margin: 0 auto;
-  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
   object-fit: cover;
   object-position: center;
 }
 
-.card{
+.card {
   padding: 1.5em .5em .5em;
   /* border-radius: 2em; */
   text-align: center;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
 
-.card-title{
+.card-title {
   font-weight: 700;
   font-size: 1.5em;
 }
