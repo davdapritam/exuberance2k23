@@ -60,7 +60,9 @@ h6 {
 
 .back-to-top {
   position: fixed;
-  display: none;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
   background: #f82249;
   color: #fff;
   width: 40px;
@@ -351,6 +353,14 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.carousel-control-prev {
+  left: -40px;
+}
+
+.carousel-control-next {
+  right: -40px;
 }
 
 /* Mobile Nav Toggle */
@@ -1343,17 +1353,56 @@ body.mobile-nav-active #mobile-nav-toggle {
   .developer-card {
     max-width: 70.333333%;
   }
+
+  #gallery {
+    padding: 40px;
+    overflow: hidden;
+  }
+
+  .carousel-control-prev {
+    left: -30px;
+  }
+
+  .carousel-control-next {
+    right: -30px;
+  }
+
 }
 
 @media (max-width: 350px) {
   .developer-card {
     max-width: 75.333333%;
   }
+
+  .card-title {
+    font-size: 20px !important;
+  }
+
 }
 
 @media (max-width: 325px) {
   .developer-card {
     max-width: 90%;
+  }
+
+  #gallery {
+    padding: 30px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 306px) {
+  #gallery {
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  .carousel-control-prev {
+    left: -20px;
+  }
+
+  .carousel-control-next {
+    right: -20px;
   }
 }
 
