@@ -63,10 +63,10 @@
   <section id="intro">
     <div class="intro-container wow fadeIn">
       <div>
-        <div class="d-flex img-box">
-          <img style="height: 150px;margin-right: 12vw;" src="./img/SCET_White.png">
-          
-          <img style="margin-left: 12vw;height: 150px;background-color: white;border-radius: 100%;"
+        <div class="d-flex img-box" style="position: relative;">
+          <img style="height: 150px;" src="./img/SCET_White.png">
+
+          <img style="height: 150px;background-color: white;border-radius: 100%; position: absolute; right: 0px;"
             src="./img/A&I-white.png">
         </div>
         <div>
@@ -165,7 +165,7 @@
           <h2>Co-ordinators</h2>
         </div>
       </div>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators" style="bottom: -45px;">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -307,24 +307,40 @@
 
         <div class="row " style="justify-content: center;">
           <div class="col-lg-3 col-md-6 faculty-card" style="width: auto;">
-            <img src="img/feculty/hirenpatel.jpg" style="height: 200px;max-width: 200px;" class="card-img-top "
-              alt="...">
-            <h5 class="card-title faculty">Hiren Patel</h5>
+            <div class="card">
+              <img src="img/feculty/hirenpatel.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title faculty">Dr. Hiren Patel</h5>
+                <p class="card-text">Principal</p>
+              </div>
+            </div>
           </div>
           <div class="col-lg-3 col-md-6 faculty-card" style="width: auto;">
-            <img src="img/feculty/keyurrana.jpg" class="card-img-top  " style="height: 200px;max-width: 200px;"
-              alt="...">
-            <h5 class="card-title faculty">Keyur Rana</h5>
+            <div class="card">
+              <img src="img/feculty/keyurrana.jpg" class="card-img-top" alt=" ...">
+              <div class="card-body">
+                <h5 class="card-title faculty">Dr. Keyur Rana</h5>
+                <p class="card-text">Dean - Student Activity & Welfare Council</p>
+              </div>
+            </div>
           </div>
           <div class="col-lg-3 col-md-6 faculty-card " style="width: auto;">
-            <img src="img/feculty/neetachapatwala.jpg" style="height: 200px;max-width: 200px;" class="card-img-top "
-              alt="...">
-            <h5 class="card-title faculty">Neeta Chapatwala</h5>
+            <div class="card">
+              <img src="img/feculty/neetachapatwala.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title faculty">Neeta Chapatwala</h5>
+                <p class="card-text">Co-chairman Art & Intellect Committee</p>
+              </div>
+            </div>
           </div>
           <div class="col-lg-3 col-md-6 faculty-card" style="width: auto;">
-            <img src="img/feculty/sandhyarathore.jpg" style="height: 200px;max-width: 200px;" class="card-img-top "
-              alt="...">
-            <h5 class="card-title faculty">Sandhya Rathore</h5>
+            <div class="card">
+              <img src="img/feculty/sandhyarathore.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title faculty">Sandhya Rathore</h5>
+                <p class="card-text">Chairman Art & Committee</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -343,7 +359,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Exuberance</strong>. All Rights Reserved
+        &copy; Copyright <strong>Art & Intellect Committee</strong>. All Rights Reserved
       </div>
     </div>
   </footer>
