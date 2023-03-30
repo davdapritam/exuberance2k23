@@ -1214,6 +1214,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 0;
 }
 
+.img-box{
+  margin-bottom: 40px;
+}
+
+.carousel-indicators li {
+  width: 7px;
+  height: 7px;
+  background-color: rgb(199 190 192);
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(248 34 73);
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
